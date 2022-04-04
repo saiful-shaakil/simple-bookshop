@@ -5,4 +5,7 @@
 .each-card {
   display: flex;
   align-items: center;
+  height: 250px;
+  gap: 10px;
+  margin-bottom: 20px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { CardGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import useReview from "../../Hooks/useReview";
 import EachReview from "../EachReview/EachReview";
 import "./Home.css";
@@ -31,12 +32,15 @@ const Home = () => {
       </section>
 
       <section className="mt-5 container">
-        <h2>What people say about us:</h2>
-        <CardGroup className="row">
+        <h2 className="mt-5 mb-5">What people say about us:</h2>
+        <CardGroup className="row mt-5">
           {reviews.map((review) => (
             <EachReview key={review.id} review={review}></EachReview>
           ))}
         </CardGroup>
+        <Link to="/review">
+          <button className="btn btn-color mb-5">See More</button>
+        </Link>
       </section>
     </div>
   );
