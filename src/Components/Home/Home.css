@@ -1,0 +1,15 @@
+.first-section {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+  background-color: rgb(244, 212, 205);
+}
+.btn-color {
+  background-color: antiquewhite;
+}
+
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

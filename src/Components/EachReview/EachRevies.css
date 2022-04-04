@@ -1,0 +1,8 @@
+.rounded-image {
+  border-radius: 50%;
+  width: 100px;
+}
+.each-card {
+  display: flex;
+  align-items: center;
+}

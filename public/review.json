@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Nick Jons",
+    "image": "images/userphoto1.jpg",
+    "review": "This is the best book store! A wide variety. The prices are great. You can find just what are you looking for."
+  },
+  {
+    "id": 2,
+    "name": "Pam Fruit",
+    "image": "",
+    "review": "Excellent services. The books were wraped securely and arrived in pristine condition."
+  },
+  {
+    "id": 3,
+    "name": "Aleya Binthi",
+    "image": "",
+    "review": "I am so happy to find a book store like this. The packaging was phenomenal and my books arrived on time in perfect condition."
+  },
+  {
+    "id": 4,
+    "name": "Malala Rukmini",
+    "image": "",
+    "review": "Yay! I find the right place. This is the best book store! A wide variety. The prices are great. You can find just what are you looking for."
+  },
+  {
+    "id": 5,
+    "name": "Will Smith",
+    "image": "",
+    "review": "I never thought I could find a book store like this. The packaging was phenomenal and my books arrived on time in perfect condition."
+  },
+  {
+    "id": 6,
+    "name": "Smith White",
+    "image": "",
+    "review": "What a service!. The books were wraped securely and arrived in pristine condition. They are very helpful."
+  }
+]
