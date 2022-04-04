@@ -1,4 +1,3 @@
-import { Tooltip } from "bootstrap";
 import React from "react";
 import {
   LineChart,
@@ -17,49 +16,49 @@ const Dashboard = () => {
       month: "Jan",
       investment: 110000,
       sell: 341,
-      revenue: 11401,
+      revenue: 114001,
     },
     {
       month: "Feb",
       investment: 101100,
       sell: 251,
-      revenue: 12401,
+      revenue: 124001,
     },
     {
       month: "Mar",
       investment: 100000,
       sell: 241,
-      revenue: 10401,
+      revenue: 100401,
     },
     {
       month: "Apr",
       investment: 200000,
       sell: 423,
-      revenue: 24500,
+      revenue: 245000,
     },
     {
       month: "May",
       investment: 500000,
       sell: 726,
-      revenue: 67010,
+      revenue: 670010,
     },
     {
       month: "Jun",
       investment: 500000,
       sell: 529,
-      revenue: 40405,
+      revenue: 400405,
     },
     {
       month: "Jul",
       investment: 600000,
       sell: 601,
-      revenue: 50900,
+      revenue: 509000,
     },
     {
       month: "Aug",
       investment: 700000,
       sell: 670,
-      revenue: 61000,
+      revenue: 610000,
     },
   ];
 
@@ -67,7 +66,7 @@ const Dashboard = () => {
     <div className="container graph">
       <div className="row">
         <div className="col-6">
-          <h1>Month Wise Sell</h1>
+          <h2>Month Wise Sell</h2>
           <LineChart width={600} height={300} data={data}>
             <Line type="monotone" dataKey="sell" stroke="#8884d8" />
             <CartesianGrid stroke="#ccc" />
@@ -76,7 +75,7 @@ const Dashboard = () => {
           </LineChart>
         </div>
         <div className="col-6">
-          <h1>Investment VS Revenue</h1>
+          <h2>Investment VS Revenue</h2>
           <AreaChart
             width={650}
             height={300}

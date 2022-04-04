@@ -5,19 +5,19 @@ import "./Header.css";
 const Header = () => {
   return (
     <nav className="mt-2 p-3">
-      <Link className="btn heading me-5" to="/">
+      <Link className="heading me-5" to="/">
         HOME
       </Link>
-      <Link className="btn heading me-5" to="/review">
+      <Link className="heading me-5" to="/review">
         REVIEW
       </Link>
-      <Link className="btn heading me-5" to="/dashboard">
+      <Link className="heading me-5" to="/dashboard">
         DASHBOARD
       </Link>
-      <Link className="btn heading me-5" to="/blogs">
+      <Link className="heading me-5" to="/blogs">
         BLOGS
       </Link>
-      <Link className="btn heading me-5" to="/about">
+      <Link className="heading me-5" to="/about">
         ABOUT
       </Link>
     </nav>

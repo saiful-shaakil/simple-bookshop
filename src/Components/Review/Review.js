@@ -1,6 +1,5 @@
 import React from "react";
 import { CardGroup } from "react-bootstrap";
-import useReview from "../../Hooks/useReview";
 import useReviews from "../../Hooks/useReviews";
 import EachReview from "../EachReview/EachReview";
 
